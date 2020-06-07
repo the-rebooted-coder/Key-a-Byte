@@ -1,51 +1,32 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
 
-@import 'varriable.scss';
-@import 'mixins.scss';
-@import 'extend';
-@import 'responsive.scss';
-@import 'theme-default.scss';
-@import 'btn';
-@import 'section_title';
-@import 'slick-nav.scss';
+PROJECT:	Project Name
+VERSION:	Versoin Number
+-------------------------------------------------------------------*/
 
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+-------------------------------------------------------------------*/
 
+@import 'variables';
 
-// header
-@import 'header';
+@import 'mixins';
 
-// slider
-@import 'slider';
+@import 'typography';
 
-// about
-@import 'about';
+@import 'buttons';
 
+@import 'common';
 
+@import 'templates/navigation';
 
-@import 'bradcam';
+@import 'templates/hero-area';
 
-@import 'performer';
+@import 'templates/homepage';
 
-@import '_brand';
+@import 'templates/blog';
 
-@import '_map';
-@import 'program_details';
+@import 'templates/about';
 
-
-
-
-
-@import 'footer';
-
-// contact
-@import 'contact';
-
-// elements
-@import 'elements.scss';
-
-// blog
-@import 'blog';
-
-
-// blog part
-@import 'blog_part';
-
+@import 'templates/portfolio';
